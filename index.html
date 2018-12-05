@@ -1,15 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Airport Data</title>
+  <title>MEJO 487 Final Project</title>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="UNC MEJO 487 Final Project">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript, Journalism, DataVisualization">
+    <meta name="author" content="Sarah Kreitzer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css" type="text/css" />
+  <!-- link to hamburger menu -->
+  <link href="css/hamburgers.css" rel="stylesheet">
+  <!-- link to Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i|Montserrat:100,100i,200,200i,300,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+  <!-- link to data tables -->
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
 </head>
 <body>
-  <h1> Final Project </h1>
-
-
-
+  <div class="grid">
+    <!-- section 1 -->
+    <div class="fullscreen-intro" id="flex">
+      <button class="hamburger hamburger--3dx" id="button" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <!-- sidebar -->
+      <div class="sidebar" id="sidebar_show">
+        <div class="menu-items">
+          <ul>
+            <li> About </li>
+            <li> A National Crisis </li>
+            <li> Visit </li>
+            <li> Inspiration </li>
+            <li> Benefit A Park </li>
+            <li> Sources </li>
+          </ul>
+        </div>
+      </div>
+      <div class="logo" id="flex"> </div>
+    </div>
+    <!-- quote section -->
+    <div class="quote flex">
+      <h2><em>Everybody needs beauty as well as bread,</em> places to play in and pray in, where nature may heal and give strength to body and soul alike. Keep close to Nature's heart and break clear away once in awhile,
+      and climb a mountain or spend a week in the woods.
+      Wash your spirit clean. - John Muir</h2>
+    </div>
+    <!-- Info / About section -->
+    <div class="intro-text">
+      <h1> The National Parks </h1>
+      <p>
+        Are the last living vestiges of America's once vibrant wildlife.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <br>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+  </div>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
   <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script> <!-- MUST BE AFTER THE JQUERY CDN -->
   <script src="js/scripts.js"></script>
